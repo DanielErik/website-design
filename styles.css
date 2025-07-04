@@ -85,3 +85,39 @@ body{
     min-width: 300px;
     flex-shrink: 1;
 }
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+.informationTitle{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.illustrationGroup{
+    display: flex;
+    gap: 40px;
+}
+
+.illustration{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.box{
+    border: 2px solid #3882f6;
+    height: 170px;
+    width: 170px;
+    border-radius: 20px;
+}
